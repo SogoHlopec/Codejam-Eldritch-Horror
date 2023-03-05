@@ -1,0 +1,156 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(../assets/home.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.card {
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 260px;
+  width: 200px;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.active-card {
+  border: 3px solid rgb(255, 0, 0);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.difficulty {
+  display: flex;
+  font-size: 32px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.difficulty-btn {
+  text-align: center;
+  border: 3px solid rgb(15, 90, 33);
+  width: 200px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.active-btn {
+  background-color: rgb(255, 0, 0);
+}
+
+.wrapper-deck {
+  display: flex;
+}
+
+.tracker {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-size: 24px;
+  margin-right: 15px;
+}
+
+.stage-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.dots-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.dot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.green {
+  background-color: green;
+}
+
+.brown {
+  background-color: rgb(220, 157, 31);
+}
+
+.blue {
+  background-color: blue;
+}
+
+.deck {
+  background-image: url("../assets/mythicCardBackground.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 300px;
+  width: 200px;
+  cursor: pointer;
+}
+
+.selected-card {
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 300px;
+  width: 200px;
+  margin-left: 15px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  font-size: 24px;
+  width: 50%;
+  margin-top: 5%;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+.rss-logo {
+  width: 100px;
+  height: 50px;
+  background-image: url("../assets/icon/rss.svg");
+  background-repeat: no-repeat;
+}
+
+.rss-logo:hover {
+  border: 1px solid red;
+}

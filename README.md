@@ -5,7 +5,7 @@ A project to build decks of cards for the eldritch horror board game. This proje
 * https://github.com/Luffi2539/eldritch-codejam
 
 ## Deploy:
-* TODO
+* https://sogohlopec.github.io/Codejam-Eldritch-Horror/
 
 ## Stack:
 * HTML5

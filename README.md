@@ -15,3 +15,6 @@ A project to build decks of cards for the eldritch horror board game. This proje
 ## Features:
 * Algorithm for collecting a deck of cards
 * Map tracker
+
+## Desktop
+![desktop](https://github.com/SogoHlopec/Codejam-Eldritch-Horror/blob/main/desktop.jpg)
